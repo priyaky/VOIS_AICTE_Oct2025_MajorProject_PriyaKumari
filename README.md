@@ -1,27 +1,71 @@
-# VOIS_AICTE_Oct2025_MajorProject_PriyaKumari
-Analyze Netflix movies and TV shows dataset using Python, visualize trends in content type, genres, directors, and yearly additions.
-# Netflix Dataset Analysis
+# 🎬 Netflix Content Analysis Project
 
-## Overview
-Analyze Netflix movies and TV shows dataset to visualize trends in content type, genre distribution, top directors, and yearly additions.
+![Netflix](https://upload.wikimedia.org/wikipedia/commons/0/08/Netflix_2015_logo.svg)
 
-## Dataset
-- Original: `data/netflix_titles.csv`
-- Cleaned: `cleaned_data/netflix_cleaned.csv`
+## Table of Contents
+- [Project Overview](#project-overview)
+- [Dataset Description](#dataset-description)
+- [Objectives](#objectives)
+- [Key Features](#key-features)
+- [Technologies Used](#technologies-used)
+- [Data Analysis & Visualizations](#data-analysis--visualizations)
 
-## Analysis
-- Content type distribution (Movie vs TV Show)
-- Genre distribution
-- Number of titles added per year
-- Top 10 directors
+---
 
-## Tools
-- Python (Pandas, Matplotlib, Seaborn)
-- Jupyter Notebook
+## Project Overview
+This project provides a comprehensive analysis of Netflix content to uncover insights into movies and TV shows available on the platform. It aims to understand trends, popularity, and distribution of content across countries, genres, and ratings.
 
-## Folder Structure
-- `data/` - original dataset
-- `cleaned_data/` - cleaned dataset
-- `notebooks/` - notebook with analysis
-- `visuals/` - generated charts
-- `Netflix_Analysis_Presentation.pptx` - summary presentation
+---
+
+## Dataset Description
+The dataset contains **7,789 records** and **11 columns** with details such as:
+
+- `Title` – Name of the movie/TV show
+- `Director` – Director(s) of the content
+- `Cast` – Lead actors/actresses
+- `Country` – Country of production
+- `Date Added` – Date when the content was added
+- `Release Year` – Year of release
+- `Rating` – Audience rating (e.g., PG, R)
+- `Duration` – Length of the movie or number of TV show seasons
+- `Genre` – Genre of the content
+
+**Source:** Public Netflix dataset (CSV format)
+
+---
+
+## Objectives
+- Analyze Netflix content trends over the years
+- Identify top directors, actors, and genres
+- Explore content distribution by country
+- Visualize popular ratings and release patterns
+- Assist business decisions for content strategy
+
+---
+
+## Key Features
+- ✅ Data Cleaning & Preprocessing
+- ✅ Exploratory Data Analysis (EDA)
+- ✅ Interactive Visualizations (Bar charts, Pie charts, Line plots)
+- ✅ Insights into popular genres, countries, and ratings
+- ✅ Ready-to-use Jupyter Notebook and PPT for presentation
+
+---
+
+## Technologies Used
+- **Programming Language:** Python  
+- **Libraries:** Pandas, NumPy, Matplotlib, Seaborn  
+- **Tools:** Jupyter Notebook, PowerPoint (for presentation)  
+
+---
+
+## Data Analysis & Visualizations
+Some key insights and charts include:
+
+- Top 10 Netflix Movies and TV Shows by Release Year
+- Distribution of content by Rating
+- Most popular Genres
+- Country-wise content distribution
+- Monthly & yearly trends of added content
+
+---
